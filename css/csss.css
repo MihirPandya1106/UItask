@@ -1,0 +1,91 @@
+@import url('http://fonts.googleapis.com/css?family=open+sans:300,400,700&display=swap');
+
+*{
+  font-family: 'Open Sans',sans-serif;
+}
+
+
+
+body {
+  background: #FDFEFE;
+  text-align: center;
+
+}
+
+.Head-text{
+  margin: 2rem;
+  padding-left: 9rem;
+  position: relative;
+  text-align: left;
+}
+
+.container .card-top {
+  background: #F7F9F9;
+  color:#3EBBB3;
+  text-align: justify;
+  border-radius: 2px;
+  display: inline-block;
+  height: 180px;
+  margin: 1rem;
+  position: relative;
+  width: 970px;
+}
+
+h5{
+  margin: 2rem;
+}
+
+.card {
+  background: #F7F9F9;
+  border-radius: 2px;
+  display: inline-block;
+  height: 220px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  
+  
+}
+
+
+.card{
+  
+}
+
+.imglogo {
+  width: 50px;
+    float: left;
+    padding-left: 35px;
+    border-radius: 50%; }
+
+div a
+{
+  margin-top: 20px;
+  font-size: 14;
+  float: left;
+
+  display: inline-block;
+
+  margin-left: 2rem;
+  text-decoration: none;
+  transition: 0.5s;
+  color:#3EBBB3 ;
+  border-style:solid;
+  padding: 6px 14px;
+  border-width: 2px;
+  font-weight: 600;
+}
+
+p {
+  color: #666;
+  font-size:12px;
+  margin: 1rem;
+}
+.top-p{
+  
+  margin-left: 2rem;
+}
+
+.card-1:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

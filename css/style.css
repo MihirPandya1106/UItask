@@ -1,0 +1,73 @@
+
+
+.nav ul {
+  list-style: none;
+  background-color: #FDFEFE;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.14), 0 10px 10px rgba(0,0,0,0.11);
+
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 150px;
+    float: left;
+    margin: 0.6rem;
+    padding-left: 35px;
+ }
+
+
+ .User {
+   width: 50px;
+     /*float: right;*/
+     border-radius: 100%;
+     margin-left: 150vh !important;
+  }
+
+.fa{
+  float: right;
+  margin: 0.6rem;
+  margin-right: 15rem;
+}
+
+
+
+i {
+    width:100px;
+    text-align:center;
+    vertical-align:middle;
+    position: relative;
+}
+.badge:after{
+    content:"699";
+    position: absolute;
+    background: #F25C68;
+    height:1rem;
+    top:-0.3rem;
+    right:1.9rem;
+    width:1.2rem;
+
+    text-align: center;
+    line-height: 1rem;;
+    font-size: 0.6rem;
+    border-radius: 50%;
+    color:#FDFEFE;
+  }
+
+
+
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 200px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
